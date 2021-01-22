@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="image_description">Image</string>
+    <string name="text_primary">Sample of title text</string>
+    <string name="text_subtitle">Sample of subtitle text</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_about">About</string>
+
+    <string name="title_activity_detail_home">DetailHomeActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="no_data">Empty data</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="text_overview">Overview</string>
+    <string name="text_release_date">Release Date</string>
+    <string name="title_about">Module Title</string>
+
+    <string name="author">Bayu Okta Krisdianto</string>
+    <string name="author_profile">https://d17ivq9b7rppb3.cloudfront.net/small/avatar/20200116180512dee2759b16754b935e710b0100f5d186.png</string>
+
+    <string name="url_image">https://image.tmdb.org/t/p/w185</string>
+    <string name="title_favorite">Module Title</string>
+    <string name="title_dynamicfeature">Module Title</string>
+
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="url_image">https://image.tmdb.org/t/p/w185</string>
+    <string name="image_description">Image</string>
+</resources>
