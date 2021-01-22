@@ -25,4 +25,7 @@ dependencies {
     implementation "org.koin:koin-android-viewmodel:$koin_version"
 
     implementation "com.github.florent37:shapeofview:$shape_of_view_version"
+
+    implementation "net.zetetic:android-database-sqlcipher:$sqlcipher_version"
+    implementation "androidx.sqlite:sqlite-ktx:$sqlite_ktx_version"
 }
