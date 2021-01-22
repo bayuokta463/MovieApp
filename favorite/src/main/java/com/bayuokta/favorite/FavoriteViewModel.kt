@@ -1,4 +1,4 @@
-package com.bayuokta.movieapp.favorite
+package com.bayuokta.favorite
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData

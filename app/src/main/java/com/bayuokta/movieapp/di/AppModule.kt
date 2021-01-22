@@ -2,7 +2,6 @@ package com.bayuokta.movieapp.di
 
 import com.bayuokta.core.domain.usecase.MovieInteractor
 import com.bayuokta.core.domain.usecase.MovieUseCase
-import com.bayuokta.movieapp.favorite.FavoriteViewModel
 import com.bayuokta.movieapp.detail.DetailMovieViewModel
 import com.bayuokta.movieapp.home.HomeViewModel
 import org.koin.android.viewmodel.dsl.viewModel
@@ -14,6 +13,5 @@ val useCaseModule = module {
 
 val viewModelModule = module {
     viewModel { HomeViewModel(get())}
-    viewModel { FavoriteViewModel(get()) }
     viewModel { DetailMovieViewModel(get()) }
 }

@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
+import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -85,8 +86,8 @@ class MainActivity : AppCompatActivity() {
                 title = getString(R.string.app_name)
             }
             R.id.favorite -> {
-                fragment = instantiateFragment("com.bayuokta.favorite.FavoriteFragment")
-                title = getString(R.string.menu_favorite)
+                val uri = Uri.parse("movieapp://favorite")
+                startActivity(Intent(Intent.ACTION_VIEW, uri))
             }
             R.id.about -> {
                 startActivity(Intent(this,AboutActivity::class.java))
@@ -102,15 +103,5 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = title
         return true
     }
-
-    @Suppress("SameParameterValue")
-    private fun instantiateFragment(className: String) : Fragment? {
-        return try {
-            Class.forName(className).newInstance() as Fragment
-        } catch (e: Exception) {
-            null
-        }
-    }
-
 }
 
