@@ -8,6 +8,7 @@ import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bayuokta.core.ui.MovieAdapter
 import com.bayuokta.favorite.databinding.ActivityFavoriteBinding
+
 import com.bayuokta.favorite.di.favoriteModule
 import com.bayuokta.movieapp.detail.DetailMovieActivity
 import org.koin.android.viewmodel.ext.android.viewModel
